@@ -1,9 +1,28 @@
 .header__icon {
   position: absolute;
-  top: -160px;
-  right: -160px;
-  background: center / 169px no-repeat url(../images/icon-earth.png), rgba(53, 48, 255, .2);
-  width: 565px;
-  height: 565px;
-  border-radius: 50%;
+  top: 50px;
+  right: 50px;
+  background: center no-repeat url(../images/icon-earth.png);
+  background-size: cover;
+  width: 169px;
+  height: 169px;
+  z-index: 2;
 }
+
+@media (max-width: $bigTablet) {
+  .header__icon {
+    top: 40px;
+    width: 128px;
+    height: 128px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .header__icon {
+    top: 20px;
+    right: 20px;
+    width: 94px;
+    height: 94px;
+  }
+}
+

@@ -6,6 +6,10 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #FFDB00;
-  margin-top: 40px;
-  margin-left: 50px;
+}
+
+@media (max-width: $mobile) {
+  .header__logo {
+    font-size: 20px;
+  }
 }
