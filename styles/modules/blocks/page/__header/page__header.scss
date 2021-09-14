@@ -1,0 +1,24 @@
+.page__header {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 760px;
+  background-color: #9960F6;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+
+  &:after {
+    position: absolute;
+    top: -160px;
+    right: -160px;
+    content: '';
+    width: 565px;
+    height: 565px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #3530FF;
+    opacity: .2;
+    border: 1px solid #000;
+    filter: drop-shadow(0 4px 4px #000);
+  }
+}
