@@ -7,22 +7,7 @@
   min-height: 760px;
   background-color: #9960F6;
   display: flex;
-  position: relative;
   overflow: hidden;
-}
-.page__header:after {
-  position: absolute;
-  top: -160px;
-  right: -160px;
-  content: "";
-  width: 565px;
-  height: 565px;
-  border-radius: 50%;
-  box-sizing: border-box;
-  background-color: #3530FF;
-  opacity: 0.2;
-  border: 1px solid #000;
-  filter: drop-shadow(0 4px 4px #000);
 }
 
 .page__button {
@@ -80,13 +65,12 @@
 
 .header__icon {
   position: absolute;
-  top: 50px;
-  right: 50px;
-  background: center no-repeat url(../images/icon-earth.png);
-  background-size: cover;
-  width: 169px;
-  height: 169px;
-  z-index: 2;
+  top: -160px;
+  right: -160px;
+  background: center/169px no-repeat url(../images/icon-earth.png), rgba(53, 48, 255, 0.2);
+  width: 565px;
+  height: 565px;
+  border-radius: 50%;
 }
 
 .header__second-section {
