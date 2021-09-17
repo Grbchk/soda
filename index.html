@@ -24,23 +24,29 @@
     </div>
  </header>
  <main class="content">
-    <section class="about">
-      <div class="border"><p>Fresh — </p></div>
+    <section class="about content__section">
+      <p class="about__border">
+        Fresh — Fresh — Fresh — Fresh — Fresh — Fresh —
+        Fresh — Fresh — Fresh — Fresh — Fresh — Fresh —
+        Fresh — Fresh — Fresh —
+      </p>
       <p class="about__main-title">Как это работает?</p>
-      <article class="tastes" id="block-tastes">
+      <article class="tastes about__section" id="block-tastes">
+        <div>
         <h2 class="about__title">Вкусы</h2>
         <p class="about__text">
           Пейте фрукты, а не газировку со вкусовыми
           добавками, наши лимонады на 100% натуральны!
         </p>
+        </div>
         <img class="tastes__image" src="./images/strawberry-soda.png" alt="Газировка с ярким вкусом strawberry">
       </article>
-      <article class="composition" id="block-composition">
+      <article class="composition about__section" id="block-composition">
         <h2 class="about__title">Состав</h2>
         <p class="about__text">
           Наши натуральные лимонады делаются из натуральных компонентов.
         </p>
-        <button class="page__button">Попробовать</button>
+        <button class="page__button composition__button">Попробовать</button>
         <ul class="composition__list">
           <li class="composition__item">Сок</li>
           <li class="composition__item">Пюре</li>
@@ -49,23 +55,32 @@
           <li class="composition__item">Витамины</li>
         </ul>
       </article>
-      <article class="slogan">
+      <article class="slogan about__section">
         <h2 class="slogan__title">
           <span class="slogan__title_up">Soda</span> — натуральные лимонады!
         </h2>
         <img class="slogan__image" src="./images/mango-soda.png" alt="Газировка с ярким вкусом mango">
-      </article>
+        </article>
     </section>
-    <section class="samples" id="block-samples">
+    <section class="samples content__samples" id="block-samples">
       <h2 class="samples__title">Семплы</h2>
       <p class="samples__text">
         Хотите получить семплы каждого вкуса, чтобы понять что нравится вам? заполните форму!
       </p>
       <form class="samples__form" name="samples-form">
         <p class="samples__form-title">Семплы</p>
-        <input type="text" id="samples-first-name" name="samples-card-first-name" class="samples__item" placeholder="Имя *">
-        <input type="text" id="samples-last-name" name="samples-card-last-name" class="samples__item" placeholder="Фамилия *">
-        <input type="url" id="samples-email" name="samples-card-email" class="samples__item" pattern="https://.*" placeholder="Email *">
+        <p class="samples__item">
+          <label for="samples-first-name" class="samples__item-title">Имя *</label>
+          <input type="text" id="samples-first-name" name="entry-field" class="samples__item-input">
+        </p>
+        <p class="samples__item">
+          <label for="samples-last-name" class="samples__item-title">Фамилия *</label>
+          <input type="text" id="samples-last-name" name="entry field" class="samples__item-input">
+        </p>
+        <p class="samples__item">
+          <label for="samples-email" class="samples__item-title">Email *</label>
+          <input type="url" id="samples-email" name="entry-field" class="samples__item-input" pattern="https://.*">
+        </p>
         <button type="submit" id="submit-button" class="samples__button">Запросить</button>
       </form>
     </section>

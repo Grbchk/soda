@@ -1,0 +1,21 @@
+.samples__item-input {
+  padding: 0;
+  margin-bottom: 12px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid $primaryColor;
+  background-color: #016450;
+  font-family: $fontFamily;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0.3px;
+  line-height: 44px;
+}
+
+@media (max-width: 570px) {
+  .samples__item-input {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}

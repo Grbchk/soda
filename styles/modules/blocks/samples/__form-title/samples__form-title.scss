@@ -1,0 +1,17 @@
+.samples__form-title {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: $primaryColor;
+  margin: 0 0 50px 0;
+}
+
+@media (max-width: 570px) {
+  .samples__form-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+}

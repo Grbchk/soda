@@ -1,0 +1,20 @@
+.content__samples {
+  margin: 0 auto;
+  padding: 60px 50px 60px 0;
+  max-width: 1440px;
+}
+
+@media (max-width: 1400px) {
+  .content__samples {
+    padding: 0 34px 34px 34px;
+    margin: 0 50px;
+  }
+}
+
+
+@media (max-width: 570px) {
+  .content__samples {
+    margin: 0 20px;
+    padding: 0 10px 10px 10px;
+  }
+}
