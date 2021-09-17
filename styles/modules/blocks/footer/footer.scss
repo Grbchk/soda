@@ -1,0 +1,25 @@
+.footer {
+  background-color: #7A54F9;
+  display: flex;
+  align-items: start;
+}
+
+@media (max-width: 1150px) {
+  .footer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    justify-content: start;
+  }
+}
+
+@media (max-width: $tablet) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
