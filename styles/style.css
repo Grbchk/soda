@@ -67,6 +67,12 @@
   font-size: 18px;
   line-height: 31px;
   letter-spacing: 0.3px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.page__button:hover {
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px #1E3264;
 }
 
 .header__first-section {
@@ -472,7 +478,6 @@
 }
 .composition__button {
   grid-row: 4;
-  align-self: end;
   margin: 0 0 90px 100px;
   padding: 12px 21px;
 }
@@ -694,7 +699,7 @@
     grid-row: 3;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .samples__form {
     max-width: 600px;
   }
@@ -730,6 +735,7 @@
   display: flex;
   flex-direction: column;
   margin: 0;
+  cursor: pointer;
   /*first-name*/
   /*last-name*/
   /*e-mail*/
@@ -750,8 +756,11 @@
 .samples__item:nth-child(4) .samples__item-input {
   margin-bottom: 0;
 }
+.samples__item:hover .samples__item-title {
+  opacity: 50%;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .samples__item {
     /*first-name*/
     /*last-name*/
@@ -787,24 +796,25 @@
   }
 }
 .samples__item-input {
-  padding: 0;
-  margin-bottom: 12px;
+  padding: 0 0 13px 0;
+  margin-bottom: 13px;
   border: 0;
   outline: none;
   border-bottom: 2px solid #fff;
   background-color: #016450;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 600;
   letter-spacing: 0.3px;
-  line-height: 44px;
+  line-height: 31px;
+  color: #fff;
 }
 
 @media (max-width: 570px) {
   .samples__item-input {
     margin-bottom: 8px;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 17px;
   }
 }
 .samples__button {
@@ -821,9 +831,15 @@
   letter-spacing: 0.3px;
   margin-top: 179px;
   grid-row: 4;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.samples__button:hover {
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px #E1FD2C;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .samples__button {
     grid-row: 5;
     margin-top: 90px;
@@ -957,6 +973,10 @@
   margin: 0;
   padding-bottom: 3px;
   text-decoration: none;
+  transition: all 0.3s;
+}
+.footer__item:hover {
+  opacity: 70%;
 }
 
 .footer__menu {

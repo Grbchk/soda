@@ -12,9 +12,16 @@
   letter-spacing: 0.3px;
   margin-top: 179px;
   grid-row: 4;
+  cursor: pointer;
+  transition: all .1s;
+
+  &:hover {
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 2px #E1FD2C;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .samples__button {
     grid-row: 5;
     margin-top: 90px;
