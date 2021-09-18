@@ -8,7 +8,7 @@
   &::after {
     position: absolute;
     content: '';
-    bottom: 24px;
+    bottom: -24px;
     right: -43px;
     background: center no-repeat url(../images/icon-pineapple.png);
     background-size: cover;
