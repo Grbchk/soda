@@ -18,6 +18,7 @@
 **БЭМ nested**
 
 >Организация файловой структуры выполнена вручную.
+>
 >SCSS скомпилирован в CSS расширением VS Code - Live Sass Compiler v5.1.0
 
 **Grid Layout**
