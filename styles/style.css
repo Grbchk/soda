@@ -575,6 +575,7 @@
 }
 .slogan__title_up {
   text-transform: uppercase;
+  margin: 0;
 }
 
 .slogan__image {
