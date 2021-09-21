@@ -19,7 +19,7 @@
     </div>
     <div class="header__second-section">
       <h1 class="header__title">Вкусные лимонады из фруктов</h1>
-      <button class="page__button header__button">Подробнее</button>
+      <button class="page__button header__button" type="button">Подробнее</button>
     </div>
  </header>
  <main class="content">
@@ -45,7 +45,7 @@
         <p class="about__text">
           Наши натуральные лимонады делаются из натуральных компонентов.
         </p>
-        <button class="page__button composition__button">Попробовать</button>
+        <button class="page__button composition__button" type="button">Попробовать</button>
         <ul class="composition__list">
           <li class="composition__item">Сок</li>
           <li class="composition__item">Пюре</li>
@@ -78,7 +78,7 @@
         </p>
         <p class="samples__item">
           <label for="samples-email" class="samples__item-title">Email *</label>
-          <input type="url" id="samples-email" name="entry-field" class="samples__item-input" pattern="https://.*">
+          <input type="email" id="samples-email" name="entry-field" class="samples__item-input">
         </p>
         <button type="submit" id="submit-button" class="samples__button">Запросить</button>
       </form>
@@ -107,8 +107,8 @@
     </ul>
     <h2 class="footer__title">Контакты</h2>
     <div class="footer__contacts">
-      <p class="footer__item">press@soda.io</p>
-      <p class="footer__item">connect@soda.io</p>
+      <a class="footer__item" href="mailto:press@soda.io">press@soda.io</a>
+      <a class="footer__item" href="mailto:connect@soda.io">connect@soda.io</a>
     </div>
     <p class="footer__copyright">© 2021 Soda, Inc. All Rights Reserved.</p>
   </nav>
