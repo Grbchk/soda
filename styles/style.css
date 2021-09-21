@@ -3,7 +3,6 @@
 /*header*/
 .page__header {
   margin: 0 auto;
-  max-width: 1440px;
   background-color: #9960F6;
   display: flex;
   overflow: hidden;
@@ -230,7 +229,6 @@
 /*main*/
 .content__section {
   margin: 0 auto;
-  max-width: 1440px;
   overflow: hidden;
 }
 
@@ -612,7 +610,6 @@
 .content__samples {
   margin: 0 auto;
   padding: 60px 50px 60px 0;
-  max-width: 1440px;
 }
 
 @media (max-width: 1400px) {
@@ -630,6 +627,7 @@
 .samples {
   display: grid;
   background-color: #CEF564;
+  box-sizing: border-box;
 }
 
 .samples__title {
@@ -688,20 +686,23 @@
   box-sizing: border-box;
   padding: 24px 30px 30px 30px;
   background-color: #016450;
-  max-width: 693px;
+  min-width: 693px;
   grid-column: 2;
   grid-row: 1/4;
+  justify-self: end;
 }
 
 @media (max-width: 1400px) {
   .samples__form {
     grid-column: 1;
     grid-row: 3;
+    justify-self: start;
   }
 }
 @media (max-width: 880px) {
   .samples__form {
     max-width: 600px;
+    min-width: 100%;
   }
 }
 @media (max-width: 570px) {
@@ -857,7 +858,6 @@
 /*footer*/
 .page__footer {
   margin: 0 auto;
-  max-width: 1440px;
   min-height: 500px;
 }
 

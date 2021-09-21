@@ -3,22 +3,24 @@
   box-sizing: border-box;
   padding: 24px 30px 30px 30px;
   background-color: #016450;
-  max-width: 693px;
+  min-width: 693px;
   grid-column: 2;
   grid-row: 1/4;
-
+  justify-self: end;
 }
 
 @media (max-width: 1400px) {
   .samples__form {
     grid-column: 1;
     grid-row: 3;
+    justify-self: start;
   }
 }
 
 @media (max-width: 880px) {
   .samples__form {
     max-width: 600px;
+    min-width: 100%;
   }
 }
 
