@@ -10,8 +10,6 @@
   }
 }
 
-@media (max-width: 590px) {
-  .tastes__image {
-    margin: 50px 20px 20px 20px;
-  }
+@include breakPoint ('tastes__image', $miniTablet) {
+  margin: 50px 20px 20px 20px;
 }

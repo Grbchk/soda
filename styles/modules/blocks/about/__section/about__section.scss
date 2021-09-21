@@ -2,8 +2,6 @@
   margin: 0 50px;
 }
 
-@media (max-width: 590px) {
-  .about__section {
-    margin: 0 20px;
-  }
+@include breakPoint ('about__section', $miniTablet) {
+  margin: 0 20px;
 }

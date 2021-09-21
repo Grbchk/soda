@@ -2,7 +2,7 @@
   display: grid;
   box-sizing: border-box;
   padding: 24px 30px 30px 30px;
-  background-color: #016450;
+  background-color: $sixthColor;
   min-width: 693px;
   grid-column: 2;
   grid-row: 1/4;
@@ -24,10 +24,8 @@
   }
 }
 
-@media (max-width: 570px) {
-  .samples__form {
-    padding: 20px;
-  }
+@include breakPoint ('samples__form', $miniTablet) {
+  padding: 20px;
 }
 
 @media (max-width: 320px) {

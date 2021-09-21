@@ -14,10 +14,8 @@
   cursor: pointer;
 }
 
-@media (max-width: 570px) {
-  .samples__item-input {
-    margin-bottom: 8px;
-    font-size: 14px;
-    line-height: 17px;
-  }
+@include breakPoint ('samples__item-input', $miniTablet) {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 17px;
 }

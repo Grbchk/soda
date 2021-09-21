@@ -11,9 +11,7 @@
 }
 
 
-@media (max-width: 570px) {
-  .content__samples {
-    margin: 0 20px;
-    padding: 0 10px 10px 10px;
-  }
+@include breakPoint ('content__samples', $miniTablet) {
+  margin: 0 20px;
+  padding: 0 10px 10px 10px;
 }

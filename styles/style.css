@@ -618,7 +618,7 @@
     margin: 0 50px;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .content__samples {
     margin: 0 20px;
     padding: 0 10px 10px 10px;
@@ -648,7 +648,7 @@
     padding: 60px 0 0 26px;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .samples__title {
     padding: 20px 0 0px 10px;
     font-size: 20px;
@@ -674,7 +674,7 @@
     padding: 48px 0 100px 26px;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .samples__text {
     padding: 20px 10px 50px 10px;
     font-size: 14px;
@@ -705,7 +705,7 @@
     min-width: 100%;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .samples__form {
     padding: 20px;
   }
@@ -725,7 +725,7 @@
   margin: 0 0 50px 0;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .samples__form-title {
     font-size: 20px;
     line-height: 24px;
@@ -790,7 +790,7 @@
   color: #fff;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .samples__item-title {
     font-size: 14px;
     line-height: 31px;
@@ -812,7 +812,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .samples__item-input {
     margin-bottom: 8px;
     font-size: 14px;
@@ -847,7 +847,7 @@
     margin-top: 90px;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 590px) {
   .samples__button {
     font-size: 16px;
     padding: 11px 66px;

@@ -17,11 +17,9 @@
   }
 }
 
-@media (max-width: 590px) {
-  .about__text {
-    font-size: 14px;
-    line-height: 19px;
-    max-width: 240px;
-    margin: 14px 0 0 20px;
-  }
+@include breakPoint ('about__text', $miniTablet) {
+  font-size: 14px;
+  line-height: 19px;
+  max-width: 240px;
+  margin: 14px 0 0 20px;
 }

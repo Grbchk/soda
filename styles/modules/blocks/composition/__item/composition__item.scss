@@ -14,11 +14,9 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 590px) {
-  .composition__item {
-    font-size: 22px;
-    line-height: 22px;
-    margin: 0 20px 20px 20px;
-    padding-bottom: 21px;
-  }
+@include breakPoint ('composition__item', $miniTablet) {
+  font-size: 22px;
+  line-height: 22px;
+  margin: 0 20px 20px 20px;
+  padding-bottom: 21px;
 }

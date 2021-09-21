@@ -14,10 +14,8 @@
   }
 }
 
-@media (max-width: 590px) {
-  .about__title {
-    font-size: 20px;
-    line-height: 24px;
-    margin: 20px 0 0 20px;
-  }
+@include breakPoint ('about__title', $miniTablet) {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 20px 0 0 20px;
 }

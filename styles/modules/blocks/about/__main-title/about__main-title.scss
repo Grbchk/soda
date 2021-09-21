@@ -10,10 +10,8 @@
   text-align: center;
 }
 
-@media (max-width: 590px) {
-  .about__main-title {
-    font-size: 20px;
-    line-height: 25px;
-    margin: 50px auto;
-  }
+@include breakPoint ('about__main-title', $miniTablet) {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 50px auto;
 }

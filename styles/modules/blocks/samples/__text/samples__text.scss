@@ -18,10 +18,8 @@
   }
 }
 
-@media (max-width: 570px) {
-  .samples__text {
-    padding: 20px 10px 50px 10px;
-    font-size: 14px;
-    line-height: 19px;
-  }
+@include breakPoint ('samples__text', $miniTablet) {
+  padding: 20px 10px 50px 10px;
+  font-size: 14px;
+  line-height: 19px;
 }

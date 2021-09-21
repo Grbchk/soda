@@ -7,9 +7,7 @@
   color: $primaryColor;
 }
 
-@media (max-width: 570px) {
-  .samples__item-title {
-    font-size: 14px;
-    line-height: 31px;
-  }
+@include breakPoint ('samples__item-title', $miniTablet) {
+  font-size: 14px;
+  line-height: 31px;
 }
